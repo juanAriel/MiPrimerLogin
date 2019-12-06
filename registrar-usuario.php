@@ -1,5 +1,6 @@
 <?php
 //incluimos el archivo donde se encuentran nuestros datos de conexion
+//incluimos el archivo donde se encuentran nuestros datos de conexion
  include 'conexion.php';
  
  $form_pass = $_POST['password'];

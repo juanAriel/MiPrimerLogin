@@ -37,7 +37,7 @@ if ($password==$row['password']) {
     echo "Bienvenido! " . $_SESSION['username'];
     echo "<br><br><a href=panel-control.php>Panel de Control</a>"; 
     header('Location: http://localhost/misProyectos/MiPrimerLogin/panel-control.php');//redirecciona a la pagina del usuario
-
+//nuevo comentario
  } else { 
    echo "Username o Password estan incorrectos.";
 
